@@ -15,7 +15,7 @@ TweetBeacon = function(tweet) {
   this.add(this.container);
 
   // Set base color depending on sentiment score
-  this.color = red;
+  this.color = 0xFF0000;
 
   if (tweet.sentiment.score < 0) {
     this.color = 0xFF0000;
