@@ -359,6 +359,9 @@ a {
 .tweet-item.negative {
     border-color: red
 }
+.tweet-item.neutral {
+    border-color: blue
+}
 
 .tweet-item.positive {
     border-color: #00FF00
