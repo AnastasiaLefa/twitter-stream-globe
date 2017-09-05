@@ -17,16 +17,16 @@ TweetBeacon = function(tweet) {
   // Set base color depending on sentiment score
   this.color = 0x0000FF;
 
-  if (tweet.sentiment.score < -2) {
+  if (tweet.sentiment.score < -1) {
     this.color = 0xe63f01;
   }
-  else if (tweet.sentiment.score > 2) {
+  else if (tweet.sentiment.score > 1) {
     this.color = 0x01f9ea;
   }
-  else if (tweet.sentiment.score < 0 & tweet.sentiment.score > -2 ) {
-    this.color = 0xffd966;
+  else if (tweet.sentiment.score < 0 & tweet.sentiment.score > -1 ) {
+    this.color = 0x6ffd96;
   }
-  else if (tweet.sentiment.score > 0 & tweet.sentiment.score  >2 ) {
+  else if (tweet.sentiment.score > 0 & tweet.sentiment.score  >1 ) {
     this.color= 0x26ff01;
   }
 
