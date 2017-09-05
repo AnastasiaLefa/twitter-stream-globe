@@ -171,6 +171,10 @@ a {
 	font-weight: 300;
 }
 
+#sentiment-value.neutral {
+	color: $color-neutral;
+}
+
 #sentiment-value.negative {
 	color: $color-negative;
 }
