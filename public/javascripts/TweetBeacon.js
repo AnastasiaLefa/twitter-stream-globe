@@ -24,7 +24,7 @@ TweetBeacon = function(tweet) {
     this.color = 0x00FF00;
   }
   else if (tweet.sentiment.score < 0 & tweet.sentiment.score > -1 ) {
-    this.color = 0x6ffd96;
+    this.color = 0xFF9900;
   }
   else if (tweet.sentiment.score > 0 & tweet.sentiment.score  < 1 ) {
     this.color= 0x26ff01;
