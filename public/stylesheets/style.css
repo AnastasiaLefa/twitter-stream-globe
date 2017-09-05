@@ -307,12 +307,6 @@ a {
     color: #00FF00
 }
 
-#sentiment-value.positive1 {
-    color: #00FFFF
-}
-#sentiment-value.negative1 {
-    color: #FF9900
-}
 
 #line-chart-panel {
     width: 220px;
